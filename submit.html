@@ -30,7 +30,7 @@
     <h1 class="border-top-0 pt-3">Registrarse<br></h1>
     <div class="container w-100 h-100">
       <form class="">
-        <div class="row h-50">
+        <div class="row h-100">
           <div class="col-md-6 px-0 h-100" style="">
             <div class="form-group"> <label>Usuario*</label> <input type="text" class="form-control" placeholder="Ingrese su email"></div>
             <div class="form-group"> <label>Nombre*</label> <input type="text" class="form-control" placeholder="Ingrese su nombre"></div>
@@ -38,11 +38,12 @@
             <div class="form-group"> <label>Email*</label> <input type="email" class="form-control" placeholder="Ingrese su email"></div>
             <div class="form-group"> <label>Email alternativo</label> <input type="email" class="form-control" placeholder="Ingrese su email alternativo"></div>
             <div class="form-group"> <label>Contraseña*</label> <input type="password" class="form-control" placeholder="Ingrese su contraseña"> </div>
-            <select class="selectpicker">
+            <div class="form-group"> <label>Repetir Contraseña*</label> <input type="password" class="form-control" placeholder="Ingrese su contraseña"> </div>
+            <select class="selectpicker m-3">
               <option>Santa Fe</option>
               <option>Buenos Aires</option>
             </select>
-            <select class="selectpicker">
+            <select class="selectpicker m-3">
               <option>Rosario</option>
               <option>Santa Fe</option>
             </select>
@@ -56,22 +57,20 @@
             <div class="form-group"> <label>Teléfono*</label> <input type="text" class="form-control" placeholder="Ingrese su teléfono"></div>
             <div class="form-group"> <label>Teléfono alternativo</label> <input type="text" class="form-control" placeholder="Ingrese un teléfono adicional"></div>
             <div class="form-group"> <label>CUIL o CUIT*</label> <input type="text" class="form-control" placeholder="Ingrese su CUIL o CUIT"></div>
-            <select class="selectpicker">
+            <select class="selectpicker m-3">
               <option>Masculino</option>
               <option>Femenino</option>
               <option>Otro</option>&gt;
             </select>
-            <select class="selectpicker">
+            <select class="selectpicker m-3">
               <option>Casado</option>
               <option>Soltero</option>
               <option>Otro</option>&gt;
             </select>
             <div class="form-group"> <label>Piso</label> <input type="text" class="form-control" placeholder="Ingrese piso"></div>
             <div class="form-group"> <label>Depto</label> <input type="text" class="form-control" placeholder="Ingrese departamento"></div>
-            <button type="submit" class="btn btn-primary w-50">Enviar</button>
+            <button type="submit" class="btn btn-primary w-50 " style="margin-top:31px;">Enviar</button>
           </div>
-        </div>
-        <div class="row h-100">
         </div>
       </form>
     </div>
@@ -95,7 +94,8 @@
       </div>
     </div>
   </div>
-  <script src="js/bootstrap.min.js" ></script>
+  <script src="js/bootstrap.min.js" style=""></script>
+  <pingendo onclick="window.open('https://pingendo.com/', '_blank')" style="cursor:pointer;position: fixed;bottom: 20px;right:20px;padding:4px;background-color: #00b0eb;border-radius: 8px; width:220px;display:flex;flex-direction:row;align-items:center;justify-content:center;font-size:14px;color:white">Made with Pingendo Free&nbsp;&nbsp;<img src="https://pingendo.com/site-assets/Pingendo_logo_big.png" class="d-block" alt="Pingendo logo" height="16"></pingendo>
 </body>
 
 </html>
